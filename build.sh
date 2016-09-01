@@ -15,6 +15,7 @@ cp -r /etc/plexReport/* /opt/config/
 rm /opt/config/config.yaml
 
 # clean up
+rm -rf /opt/plexReport/
 apt-get purge -y git make gcc inotify-tools
 apt-get autoremove -y
 apt-get clean
