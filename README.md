@@ -11,4 +11,4 @@ The first time you run this, it will copy an example config to your config folde
 
 If you do not set options, they default to `-n -d`.
 
-Uses bstascavage/plexReport
+Based on [bstascavage/plexReport](https://github.com/bstascavage/plexReport)
