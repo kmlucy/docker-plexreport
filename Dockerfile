@@ -1,6 +1,7 @@
 FROM debian:jessie
+LABEL maintainer "Kyle Lucy <kmlucy@gmail.com>"
 
-ADD * /
+COPY . /
 
 ENV OPTIONS="-n -d" LC_ALL=C.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8
 
